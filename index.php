@@ -6,6 +6,8 @@ $banWord = isset($_GET['banWord']) ? $_GET['banWord'] : '';
 //variabile lunghezza della variabile stringa (inserisco anche la funzione per modificare il paragrafo con la barola da bannare così il numero è reattivo e cambia al cambiare del paragrafo)
 $stringLength = strlen(str_ireplace($banWord, "***", $paragraph));
 
+$test = 'test';
+
 ?>
 
 <!DOCTYPE html>
