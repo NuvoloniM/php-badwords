@@ -40,5 +40,8 @@ $stringLength = strlen(str_ireplace($banWord, "***", $paragraph));
         <!-- stampo la quantità di caratteri, compresi gli spazzi del paragrafo -->
         <?php echo "$stringLength" ?>
     </div>
+    <div>
+        scdwf
+    </div>
 </body>
 </html>
